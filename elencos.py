@@ -1,0 +1,1 @@
+ELENCOS={"Santa Cruz":["Goleiro 1","Zagueiro 1","Zagueiro 2","Lateral 1","Lateral 2","Volante 1","Meia 1","Meia 2","Ponta 1","Atacante 1","Atacante 2"],"Sport":["Goleiro 1","Zagueiro 1","Zagueiro 2","Lateral 1","Lateral 2","Volante 1","Meia 1","Meia 2","Ponta 1","Atacante 1","Atacante 2"]}
