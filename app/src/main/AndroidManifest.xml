@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+        android:icon="@drawable/icone_futebol"
         android:theme="@style/AppTheme"
-        android:label="FutebolManager"
+        android:label="Futebol Brasileiro"
         android:allowBackup="true"
         android:supportsRtl="true">
         <activity
