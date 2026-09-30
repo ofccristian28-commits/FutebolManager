@@ -1,4 +1,4 @@
-name: Build APK
+name: Build Futebol Brasileiro APK
 
 on:
   workflow_dispatch:
@@ -28,8 +28,13 @@ jobs:
       - name: Compilar APK
         run: gradle assembleDebug --no-daemon
 
-      - name: Publicar APK
+      - name: Renomear APK
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk \
+             app/build/outputs/apk/debug/FutebolBrasileiro.apk
+
+      - name: Publicar FutebolBrasileiro.apk
         uses: actions/upload-artifact@v4
         with:
-          name: FutebolManager-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: FutebolBrasileiro
+          path: app/build/outputs/apk/debug/FutebolBrasileiro.apk
